@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <link rel="stylesheet" href="/files/styles.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="login-cont">
+        <div class="cont1">
+            <img src="/files/images/logo2.png" alt="dlsud logo">
+            <div class="intz">
+                <h4>Sign in</h4>
+                <form id="loginform" class="logform">
+                    <div class="input-container">
+                        <i class="icon fas fa-user"></i>
+                        <input type="int" id="uid" placeholder="Enter User ID..." required>
+                    </div>
+                    <div class="input-container">
+                        <i class="icon fas fa-lock"></i>
+                        <input type="password" id="pw" placeholder="Enter Password..." required>
+                    </div>
+                    <button class="loginbutt">LOGIN</button>
+                </form>
+                    <p id="message"></p>
+                    <!-- <button class="loginbutt" onclick="ToMedRec()">LOGIN</button> -->
+            </div>
+            <div class="botlog">
+                <p>@ Copyright 2023 <b>CGR</b> All Rights Reserved   </p>
+            </div>
+        </div>
+    </div>
+    <!-- <script src="/files/connfunc/app.js"></script> -->
+    <script src="/files/pagefunc/login.js"></script>
+</body>
+</html>
